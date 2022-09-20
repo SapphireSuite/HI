@@ -7,5 +7,6 @@
 
 #include <SA/HI/Object.hpp>
 #include <SA/HI/Interface.hpp>
+#include <SA/HI/InterfaceList.hpp>
 
 #endif // SAPPHIRE_HI_COLLECTIONS_HI_GUARD
