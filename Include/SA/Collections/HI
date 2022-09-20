@@ -1,0 +1,11 @@
+// Copyright (c) 2022 Sapphire's Suite. All Rights Reserved.
+
+#pragma once
+
+#ifndef SAPPHIRE_HI_COLLECTIONS_HI_GUARD
+#define SAPPHIRE_HI_COLLECTIONS_HI_GUARD
+
+#include <SA/HI/Object.hpp>
+#include <SA/HI/Interface.hpp>
+
+#endif // SAPPHIRE_HI_COLLECTIONS_HI_GUARD
