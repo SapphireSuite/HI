@@ -6,20 +6,7 @@
 
 int main(int argc, char** argv)
 {
-//{ Init static logger instance
-
-	SA::Logger logger;
-
-	SA::ConsoleLogStream cslStream;
-	logger.Register(cslStream);
-
-	SA::FileLogStream fileStream;
-	logger.Register(fileStream);
-
-	// Init instance.
-	SA::Debug::logger = &logger;
-
-//}
+	SA::Debug::InitDefaultLogger();
 
 	::testing::InitGoogleTest(&argc, argv);
 
