@@ -17,8 +17,8 @@ SA_ConfigureProject(SA_HI)
 # Library
 
 add_library(SA_HI STATIC)
-SA_ConfigureTarget(TARGET SA_HI)
-SA_TargetSources(TARGET SA_HI)
+SA_ConfigureTarget(SA_HI)
+SA_TargetSources(SA_HI)
 
 ### Link dependencies.
 target_link_libraries(SA_HI PUBLIC SA_Logger)
